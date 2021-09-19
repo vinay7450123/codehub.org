@@ -1,0 +1,108 @@
+
+
+/*for body*/
+
+body {
+    background: url("Image/bg.jpg");
+    background-size: cover;
+}
+
+img[name=menu] {
+    width: 60px;
+    height: 40px;
+  
+}
+
+
+button[name=home] {
+    width: 90px;
+    height: 40px;
+    border-radius: 25px;
+    background: transparent;
+    transform: translate(30px,-16px);
+}
+
+button[name=home]:hover
+{
+    background: linear-gradient(rgb(187, 255, 191),rgb(255, 203, 246));
+}
+button[name=help]
+{
+    width: 90px;
+    height: 40px;
+    border-radius: 25px;
+    background: transparent;
+    transform: translate(40px,-16px);
+}
+button[name=help]:hover {
+    background: linear-gradient(rgb(187, 255, 191),rgb(255, 203, 246));
+}
+button[name=detail] {
+    width: 90px;
+    height: 40px;
+    border-radius: 25px;
+    background: transparent;
+    transform: translate(50px,-16px);
+}
+button[name=detail]:hover {
+    background: linear-gradient(rgb(187, 255, 191),rgb(255, 203, 246));
+}
+button[name=SignUp] {
+    width: 90px;
+    height: 40px;
+    border-radius: 25px;
+    background: transparent;
+    transform: translate(810px,-16px);
+}
+button[name=SignUp]:hover {
+    background: linear-gradient(rgb(187, 255, 191),rgb(255, 203, 246));
+}
+button[name=SignIn]
+{
+    width: 90px;
+    height: 40px;
+    border-radius: 25px;
+    background: transparent;
+    transform: translate(820px,-16px);
+}
+button[name=SignIn]:hover {
+    background: linear-gradient(rgb(187, 255, 191),rgb(255, 203, 246));
+}
+
+h1[name=welcome]
+{
+    transform: translate(50px,50px);
+    font-size: 50px;
+}
+h3[name=info]
+{
+    transform: translate(50px);
+}
+form[name=cpp]
+{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgb(240, 158, 247),rgba(169, 238, 255, 0.781));
+    transform: translate(550px,-350px);
+    color: white;
+    font-size: 40px;
+    border-radius: 9px;
+}
+h1[name=cplus] {
+    transform: translate(75px,100px);
+}
+form[name=c]
+{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgba(255, 153, 153, 0.76),rgba(0, 0, 0, 0.616));
+    transform: translate(900px,-705px);
+    color: white;
+    font-size: 40px;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 9px;
+}
+h1[name=cl] {
+    transform: translate(120px,100px);
+}
